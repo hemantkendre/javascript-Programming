@@ -18,5 +18,15 @@ function stringHandsOn(){
     console.log(`Substring from index from 22 is : ${trimString.substring(22)}`);
     console.log(`String ends with word "up" : ${trimString.endsWith("up")}`);
     console.log(`String starts with word "Hey" : ${trimString.startsWith("Hey")}`);
+
+    var string1 = "abc";
+    var string2 = "pqr";
+    var string3 = "xyz";
+    console.log(`Contacted string is ${string1.concat(" ",string2).concat(" ",string3)}`)
+
+    let str = "JavaScript";
+    console.log(str.substring(4, 6));
+    console.log(str.substr(4, 6));
+
 }
 stringHandsOn();
