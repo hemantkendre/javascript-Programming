@@ -60,8 +60,8 @@ class Collage{
     }
 }
 console.log(`====== First collage details are ==========`);
-collage1 = new Collage('B.j.Collage','Pune','M.G.Road',2000);
-console.log(collage1.display());
+const collage1 = new Collage('B.j.Collage','Pune','M.G.Road',2000);
+collage1.display();
 
 // console.log(`====== Second collage details are ==========`);
 // collage2 = new Collage('Modern Collage','Pimpri Chinchwad','Main Road',1000);
